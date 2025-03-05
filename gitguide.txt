@@ -1,0 +1,17 @@
+更新代码
+24646@▒▒▒ϼ▒ MINGW64 /e/xcx (master)
+$ git status
+
+24646@▒▒▒ϼ▒ MINGW64 /e/xcx (master)
+$ git add .
+
+24646@▒▒▒ϼ▒ MINGW64 /e/xcx (master)
+$ git commit -m "1"
+
+24646@▒▒▒ϼ▒ MINGW64 /e/xcx (master)
+$ git pull origin master --rebase
+
+24646@▒▒▒ϼ▒ MINGW64 /e/xcx (master)
+$ git push origin master
+
+24646@▒▒▒ϼ▒
