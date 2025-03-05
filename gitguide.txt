@@ -31,3 +31,10 @@ name=
 git remote add origin your:https
 
 git push -u origin master
+
+更新代码到本地
+git checkout master
+
+git pull --rebase origin master
+
+git pull --rebase origin master
