@@ -37,4 +37,6 @@ git checkout master
 
 git pull --rebase origin master
 
+git reset --hard//丢弃本地修改，可选
+
 git pull --rebase origin master
