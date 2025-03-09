@@ -40,3 +40,9 @@ git pull --rebase origin master
 git reset --hard//丢弃本地修改，可选
 
 git pull --rebase origin master
+
+回溯历史版本
+//查询历史版本号
+git log --oneline
+
+git reset --hard 上个命令查到历史版本号
