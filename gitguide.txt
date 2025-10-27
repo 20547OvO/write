@@ -47,9 +47,19 @@ git log --oneline
 
 git reset --hard 上个命令查到历史版本号
 
+git status 查看冲突文件
 手动解决冲突后使用
 # 1. 继续完成 rebase
 git rebase --continue
 
 # 2. 然后强制推送（因为 rebase 重写了历史）
 git push --force-with-lease origin master
+
+对于超过100mb文件的处理
+# 第一步：查找大文件
+echo "查找超过100MB的文件..."
+find . -name ".git" -prune -o -type f -size +100M -print
+
+# 第二步：手动删除或使用其他方法删除
+# 如果确认要删除，运行：
+find . -type f -size +100M -delete
