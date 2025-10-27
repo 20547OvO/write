@@ -46,3 +46,10 @@ git pull --rebase origin master
 git log --oneline
 
 git reset --hard 上个命令查到历史版本号
+
+手动解决冲突后使用
+# 1. 继续完成 rebase
+git rebase --continue
+
+# 2. 然后强制推送（因为 rebase 重写了历史）
+git push --force-with-lease origin master
